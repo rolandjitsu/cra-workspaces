@@ -10,7 +10,7 @@
         "tslib": "^1.9.0"
     },
     "peerDependencies": {
-        
+        "react": "^16.2.0"
     },
     "devDependencies": {
         "@types/jest": "^22.1.2",
