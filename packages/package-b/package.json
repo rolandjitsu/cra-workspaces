@@ -5,7 +5,8 @@
     "scripts": {
         "test:cov": "jest --coverage",
         "test": "jest --watch",
-        "build": "tsc"
+        "build": "tsc",
+        "start": "tsc --watch"
     },
     "dependencies": {
         "package-a": "0.1.0",
