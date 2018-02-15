@@ -16,6 +16,8 @@
         "@types/jest": "^22.1.2",
         "@types/jsdom": "^11.0.4",
         "@types/node": "^9.4.5",
+        "@types/react": "^16.0.38",
+        "@types/react-dom": "^16.0.4",
         "jest": "22.1.4",
         "jest-environment-jsdom": "22.1.4",
         "ts-jest": "22.0.1",
