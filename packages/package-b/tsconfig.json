@@ -6,7 +6,12 @@
         "declaration": true,
         "module": "es2015",
         "target": "es2015",
-        "outDir": "./out-tsc/lib-es2015/"
+        "outDir": "./out-tsc/lib-es2015/",
+        "paths": {
+            "package-a": [
+                "../package-a/src"
+            ]
+        }
     },
     "files": [
         "src/public-api.ts"

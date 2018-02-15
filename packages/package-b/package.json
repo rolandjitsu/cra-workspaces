@@ -4,7 +4,8 @@
     "description": "",
     "scripts": {
         "test:cov": "jest --coverage",
-        "test": "jest --watch"
+        "test": "jest --watch",
+        "build": "tsc"
     },
     "dependencies": {
         "package-a": "0.1.0",
