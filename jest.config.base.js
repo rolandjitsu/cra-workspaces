@@ -1,10 +1,10 @@
 module.exports = {
-    // globals: {
-    //     'ts-jest': {
-    //         tsConfigFile: './tsconfig.spec.json',
-    //         enableTsDiagnostics: true
-    //     }
-    // },
+    globals: {
+        'ts-jest': {
+            tsConfigFile: './tsconfig.spec.json',
+            enableTsDiagnostics: true
+        }
+    },
     transform: {
         '^.+\\.tsx?$': 'ts-jest'
     },

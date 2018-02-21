@@ -5,11 +5,5 @@ module.exports = {
     ...common,
     moduleNameMapper: {
         'package-a': resolve(__dirname, '..', 'package-a/src')
-    },
-    globals: {
-        'ts-jest': {
-            tsConfigFile: './tsconfig.spec.json',
-            enableTsDiagnostics: true
-        }
-    }
+    }   
 };
