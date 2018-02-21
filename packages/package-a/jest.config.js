@@ -1,5 +1,11 @@
-const common = require('../../jest.config');
+const common = require('../../jest.config.base');
 
 module.exports = {
-    ...common
+    ...common,
+    globals: {
+        'ts-jest': {
+            tsConfigFile: './tsconfig.spec.json',
+            enableTsDiagnostics: true
+        }
+    }
 };
