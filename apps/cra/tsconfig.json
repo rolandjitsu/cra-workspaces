@@ -1,38 +1,17 @@
 {
+  "extends": "../../tsconfig.base.json",
   "compilerOptions": {
-    "outDir": "build/dist",
-    "module": "esnext",
-    "target": "es5",
-    "lib": ["es6", "dom"],
-    "sourceMap": true,
-    "allowJs": true,
-    "jsx": "react",
-    "moduleResolution": "node",
     "baseUrl": ".",
     "rootDir": "src",
-    "forceConsistentCasingInFileNames": true,
-    "noImplicitReturns": true,
-    "noImplicitThis": true,
-    "noImplicitAny": true,
-    "strictNullChecks": true,
-    "suppressImplicitAnyIndexErrors": true,
-    "noUnusedLocals": true,
-    "paths": {
-      "package-a": [
-        "../../packages/package-a/src"
-      ],
-      "package-b": [
-        "../../packages/package-b/src"
-      ]
-    }
+    "outDir": "build/dist",
+    "jsx": "react"
   },
   "exclude": [
-    "node_modules",
-    "build",
-    "scripts",
-    "acceptance-tests",
-    "webpack",
-    "jest",
-    "src/setupTests.ts"
+    "src/**/*.spec.ts",
+    "src/**/*.spec.tsx"
+  ],
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx"
   ]
 }

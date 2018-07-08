@@ -1,6 +1,11 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
-    "module": "commonjs"
-  }
+    "module": "esnext"
+  },
+  "exclude": [],
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ]
 }
