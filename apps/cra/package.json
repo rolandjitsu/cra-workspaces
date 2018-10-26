@@ -1,24 +1,32 @@
 {
-  "name": "cra",
+  "name": "@brayns/hub",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "ajv": "^6.4.0",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "react-scripts-ts": "2.13.0"
-  },
-  "scripts": {
-    "start": "react-scripts-ts start",
-    "build": "react-scripts-ts build",
-    "test": "react-scripts-ts test --env=jsdom",
-    "eject": "react-scripts-ts eject"
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-scripts": "2.0.6-next.c662dfb0"
   },
   "devDependencies": {
-    "@types/jest": "^22.1.2",
-    "@types/node": "^9.4.6",
-    "@types/react": "^16.0.38",
-    "@types/react-dom": "^16.0.4",
-    "typescript": "^2.7.1"
-  }
+    "@types/enzyme": "^3.1.14",
+    "@types/enzyme-adapter-react-16": "^1.0.3",
+    "@types/jest": "^23.3.7",
+    "@types/react": "^16.4.18",
+    "@types/react-dom": "^16.0.9",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.6.0",
+    "typescript": "~2.9.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test:cov": "react-scripts test --coverage",
+    "test": "react-scripts test"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

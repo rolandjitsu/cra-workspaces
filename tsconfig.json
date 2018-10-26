@@ -1,6 +1,29 @@
 {
-    "extends": "./tsconfig.base.json",
     "compilerOptions": {
-
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "downlevelIteration": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "isolatedModules": true,
+        "jsx": "preserve",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "noEmit": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "sourceMap": true,
+        "strict": true,
+        "target": "es5",
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "lib": [
+            "es2017",
+            "dom"
+        ]
     }
 }

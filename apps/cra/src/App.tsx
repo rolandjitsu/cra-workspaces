@@ -1,26 +1,27 @@
-import Ajv from 'ajv';
-import * as React from 'react';
+import React, { Component } from 'react';
+import logo from './logo.svg';
+import './App.css';
+import {test} from 'common';
 
-const ajv = new Ajv();
-const schema = {
-  type: 'object',
-  properties: {}
-};
-
-class App extends React.Component {
-  validateSchema = () => {
-    const data = {};
-    const valid = ajv.validate(schema, data);
-    if (valid) {
-      // tslint:disable: no-console
-      console.log('Heey :)');
-    }
-  }
-
+class App extends Component {
   render() {
+      test()
     return (
-      <div>
-        <h1>Welcome to React</h1>
+      <div className="App">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <p>
+            Edit <code>src/App.js</code> and save to reload.
+          </p>
+          <a
+            className="App-link"
+            href="https://reactjs.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Learn React
+          </a>
+        </header>
       </div>
     );
   }
