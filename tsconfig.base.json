@@ -1,7 +1,6 @@
 {
     "compilerOptions": {
         "baseUrl": ".",
-        "experimentalDecorators": true,
         "allowSyntheticDefaultImports": true,
         "downlevelIteration": true,
         "importHelpers": true,
